@@ -51,10 +51,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/* Shopify Buy Button JS SDK */}
-        <script src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"></script>
-        <script src="https://sdks.shopifycdn.com/buy-button-storefront/latest/buybutton-storefront.min.js"></script>
+        <script async src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"></script>
+        <script async src="https://sdks.shopifycdn.com/buy-button-storefront/latest/buybutton-storefront.min.js"></script>
         {/* Google Tag Manager */}
-        <script>
+        <script async>
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
