@@ -85,13 +85,19 @@ export const metadata: Metadata = {
       url: "/apple-touch-icon.png",
     },
   },
+  viewport: {
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    width: "device-width",
+    height: "device-height",
+  },
   manifest: "/public/site.webmanifest",
   appleWebApp: {
     title: "Sackett Ranch Butterfly Recovery Center",
     statusBarStyle: "default",
     capable: true,
   },
-  themeColor: "#ffffff",
   metadataBase: new URL("https://butterflyrecoverycenter.com"),
   verification: {
     google: "your-google-site-verification-code",

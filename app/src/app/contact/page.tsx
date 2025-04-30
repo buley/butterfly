@@ -178,7 +178,7 @@ export default function ContactPage() {
           <div className="row">
             {["Monarch Watch", "Native Plant Society", "Xerces Society", "Local Schools"].map((name) => (
               <div className="col-md-3 col-sm-6 text-center partner" key={name}>
-                <Image src="https://via.placeholder.com/200x100" alt={`${name} logo`} className="mb-2" />
+                <Image src="https://placehold.co/200x100" alt={`${name} logo`} className="mb-2" />
                 <h3>{name}</h3>
               </div>
             ))}
@@ -191,7 +191,7 @@ export default function ContactPage() {
         <div className="container text-center">
           <h2>Ready to Create Your Butterfly Habitat?</h2>
           <p className="mb-4">Help monarchs thrive with our specially designed butterfly boxes.</p>
-          <a href="https://your-store-name.myshopify.com" className="btn btn-primary">Shop Butterfly Boxes</a>
+          <a href="https://y2v110-fm.myshopify.com" className="btn btn-primary">Shop Butterfly Boxes</a>
           <a href="/about" className="btn btn-outline">Learn More</a>
         </div>
       </section>

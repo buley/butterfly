@@ -29,7 +29,7 @@ const nextConfig = {
             pathname: '/**',
         }, {
             protocol: 'https',
-            hostname: 'via.placeholder.com',
+            hostname: 'placehold.co',
             port: '',
             pathname: '/**',
         }],

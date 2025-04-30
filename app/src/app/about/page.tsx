@@ -67,7 +67,7 @@ export default function AboutPage() {
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
-              <li className="shop-link"><a href="https://your-store-name.myshopify.com" target="_blank">Shop</a></li>
+              <li className="shop-link"><a href="https://y2v110-fm.myshopify.com" target="_blank">Shop</a></li>
             </ul>
           </nav>
         </div>
@@ -75,7 +75,7 @@ export default function AboutPage() {
 
       {/* === Hero Section === */}
       <section className="hero" style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://via.placeholder.com/1920x500')`
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://placehold.co/1920x500')`
       }}>
         <div className="hero-inner">
           <h1>About Sackett Ranch</h1>
@@ -95,7 +95,7 @@ export default function AboutPage() {
             </div>
             <div className="col-md-6">
               <Image
-                src="https://via.placeholder.com/600x400"
+                src="https://placehold.co/600x400"
                 alt="Sackett Ranch nursery"
                 width={600}
                 height={400}
@@ -152,7 +152,7 @@ export default function AboutPage() {
           <div className="row">
             <div className="col-md-6">
               <Image
-                src="https://via.placeholder.com/600x400"
+                src="https://placehold.co/600x400"
                 alt="Monarch butterfly on milkweed"
                 width={600}
                 height={400}
@@ -193,12 +193,12 @@ export default function AboutPage() {
             </div>
             <div className="col-md-6">
               <div className="card">
-                <div className="card-image" style={{ backgroundImage: "url('https://via.placeholder.com/600x400')" }}></div>
+                <div className="card-image" style={{ backgroundImage: "url('https://placehold.co/600x400')" }}></div>
                 <div className="card-content">
                   <h3 className="card-title">Community Impact</h3>
                   <p>A single butterfly box can support dozens of monarchs, but a network of boxes throughout our community creates a continuous habitat corridor that can support thousands.</p>
                   <p>Our growing network of monarch supporters has already installed hundreds of butterfly boxes, creating crucial habitat in gardens, schools, parks, and businesses across the region.</p>
-                  <a href="https://your-store-name.myshopify.com" className="btn btn-primary mt-3">Get Your Butterfly Box</a>
+                  <a href="https://y2v110-fm.myshopify.com" className="btn btn-primary mt-3">Get Your Butterfly Box</a>
                 </div>
               </div>
             </div>
@@ -230,7 +230,7 @@ export default function AboutPage() {
             ].map((member) => (
               <div className="col-md-4" key={member.name}>
                 <div className="card">
-                  <div className="card-image" style={{ backgroundImage: "url('https://via.placeholder.com/400x400')" }}></div>
+                  <div className="card-image" style={{ backgroundImage: "url('https://placehold.co/400x400')" }}></div>
                   <div className="card-content">
                     <h3 className="card-title">{member.name}</h3>
                     <p className="mb-2"><em>{member.role}</em></p>
@@ -248,7 +248,7 @@ export default function AboutPage() {
         <div className="container text-center">
           <h2>Join Our Monarch Movement</h2>
           <p className="mb-4">Help us create a network of monarch habitats across our community.</p>
-          <a href="https://your-store-name.myshopify.com" className="btn btn-primary">Shop Butterfly Boxes</a>
+          <a href="https://y2v110-fm.myshopify.com" className="btn btn-primary">Shop Butterfly Boxes</a>
           <a href="/contact" className="btn btn-outline">Contact Us</a>
         </div>
       </section>

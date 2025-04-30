@@ -134,7 +134,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6">
               <Image
-                src="https://via.placeholder.com/600x400"
+                src="https://placehold.co/600x400"
                 alt="Monarch butterfly on milkweed"
                 width={600}
                 height={400}
