@@ -9,6 +9,8 @@
 "use client";
 
 import { useEffect } from "react";
+import Image from "next/image"; // Recommended over <img> for performance
+import "./globals.css"; // Import global styles
 
 /**
  * React component for the /contact route.
@@ -176,7 +178,7 @@ export default function ContactPage() {
           <div className="row">
             {["Monarch Watch", "Native Plant Society", "Xerces Society", "Local Schools"].map((name) => (
               <div className="col-md-3 col-sm-6 text-center partner" key={name}>
-                <img src="https://via.placeholder.com/200x100" alt={`${name} logo`} className="mb-2" />
+                <Image src="https://via.placeholder.com/200x100" alt={`${name} logo`} className="mb-2" />
                 <h3>{name}</h3>
               </div>
             ))}
