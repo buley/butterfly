@@ -11,7 +11,7 @@
 
 import { useEffect } from "react";
 import Image from "next/image";
-import "./globals.css"; // Import global styles
+import "./../globals.css"; // Import global styles
 
 /**
  * React component for the /about route.

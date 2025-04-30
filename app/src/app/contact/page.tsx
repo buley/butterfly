@@ -10,7 +10,7 @@
 
 import { useEffect } from "react";
 import Image from "next/image"; // Recommended over <img> for performance
-import "./globals.css"; // Import global styles
+import "./../globals.css"; // Import global styles
 
 /**
  * React component for the /contact route.
