@@ -46,10 +46,6 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
         {/* Shopify Buy Button JS SDK */}
         <script async src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"></script>
         <script async src="https://sdks.shopifycdn.com/buy-button-storefront/latest/buybutton-storefront.min.js"></script>
