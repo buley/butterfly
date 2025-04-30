@@ -10,6 +10,7 @@
 import { useEffect } from "react";
 import Image from "next/image"; // Recommended over <img> for performance
 import "./globals.css"; // Import global styles
+
 export default function Home() {
   useEffect(() => {
     const header = document.getElementById("siteHeader");
