@@ -4,6 +4,32 @@ import "./globals.css";
 import GTMBody from "./components/GTMBody"; // Import GTMBody component
 import GTMHead from "./components/GTMHead"; // Import GTMHead component
 
+/*
+import "tailwindcss/tailwind.css"; // Import Tailwind CSS
+import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
+
+import "react-bootstrap"; // Import React Bootstrap
+import "react-bootstrap/Modal"; // Import Bootstrap Modal
+import "react-bootstrap/Carousel"; // Import Bootstrap Carousel
+import "react-bootstrap/Accordion"; // Import Bootstrap Accordion
+import "react-bootstrap/Alert"; // Import Bootstrap Alert
+import "react-bootstrap/Tooltip"; // Import Bootstrap Tooltip
+import "react-bootstrap/Popover"; // Import Bootstrap Popover
+import "react-bootstrap/Dropdown"; // Import Bootstrap Dropdown
+import "react-bootstrap/DropdownButton"; // Import Bootstrap DropdownButton
+import "react-bootstrap/Offcanvas"; // Import Bootstrap Offcanvas
+import "react-bootstrap/Spinner"; // Import Bootstrap Spinner
+import "react-bootstrap/Toast"; // Import Bootstrap Toast
+import "react-bootstrap/ToastContainer"; // Import Bootstrap ToastContainer
+import "react-bootstrap/ToastHeader"; // Import Bootstrap ToastHeader
+import "react-bootstrap/ToastBody"; // Import Bootstrap ToastBody
+import "react-bootstrap/ModalHeader"; // Import Bootstrap ModalHeader
+import "react-bootstrap/ModalBody"; // Import Bootstrap ModalBody
+import "react-bootstrap/ModalFooter"; // Import Bootstrap ModalFooter
+import "react-bootstrap/ModalTitle"; // Import Bootstrap ModalTitle
+import "react-bootstrap/ModalDialog"; // Import Bootstrap ModalDialog
+*/
+
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -59,7 +85,7 @@ export const metadata: Metadata = {
       url: "/apple-touch-icon.png",
     },
   },
-  manifest: "/site.webmanifest",
+  manifest: "/public/site.webmanifest",
   appleWebApp: {
     title: "Sackett Ranch Butterfly Recovery Center",
     statusBarStyle: "default",
